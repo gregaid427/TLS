@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@font-face {
+  font-family: 'DM Sans';
+  src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.wrapper{
+  padding: 0px 140px;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper{
+    padding: 0px 30px;
+  }
+  }
+  .gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  }
+  /* @media (min-width: 701px) and (max-width: 1700px) {
+    .wrapper{
+      padding: 0px 90px;
+    }
+    } */
+
+    .how-it-works-img {
+      background-image: url("./Assets/images/african-man-black-suit-big-tv-screen-guy-shows-presentation.jpg");
+      background-size: cover;
+    }
+
+    /* ////////////////////////////////// */
+.tab-list {
+  height: 50px;
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #80808013; */
+  position: relative;
+  cursor: pointer;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.active-tabs {
+  background: #fff !important;
+}
+.active-tabs h4{
+  color: #69C080;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 4px;
+  /* background: #5893f1; */
+}
+
+.content {
+    /* background-color: #eeeded; */
+    display: none;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+     box-shadow: 5px 10px #888888cc;
+}
+
+.active-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.float-right{
+  float: right !important;
+}
+.high-z{
+  z-index: 10000000 !important;
+}
+
+.low-z{
+  z-index: 1 !important;
+}
+.navPadding{
+margin-bottom: -115px;
+z-index: 10000000 !important;
+}
+.margNegative{
+  margin-top: -400px;
+}
+@media screen and (max-width: 600px) {
+
+  .faq-text-pad {
+      margin-left: 0px !important ;
+      margin-top: -50px !important;
+      padding: 20px !important;
+      border-radius: 10px !important;
+    }
+    .faq-text-pad-alt {
+      margin-left: 0px !important ;
+      margin-top: -40px !important;
+      padding: 20px !important;
+      border-radius: 0px !important;
+    }
+    .faq-text-pad-number {
+      margin-top: auto !important ;
+      margin-bottom: auto !important ;
+      margin-right: 20px;
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+    .faq-text-pad-img {
+      border-radius: 0px !important;
+    }
+    .faq-text-pad-text {
+      font-size: 15px !important;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+    .faq-questn {
+      padding-right: 0px !important;
+      border-left: 3px solid #69C080 !important;
+    }
+  .faq-ans{
+    border-left: 3px solid #93A3A1 !important;
+    
+  }
+    .faq-text-pad-alt {
+      margin-left: 0px !important ;
+      margin-top: 280px !important;
+      padding: 20px !important;
+      position: absolute;
+      border-radius: 10px !important;
+      margin-right: 0px !important;
+      
+    }
+    .faq-space {
+      margin-bottom: 60px !important;
+    }
+    .margNegative{
+      margin-top: -320px;
+    }
+  }
+    
+
+
+
+
+
+
+
+
+
+  
