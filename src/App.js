@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
-import Nav from "./Components/NavBar/nav.component";
+
 import JobSeekerSignup from "./Pages/Auth/job-seeker-signup.page";
 import CompanySignup from "./Pages/Auth/company-signup.page";
 import Login from "./Pages/Auth/login.page";
